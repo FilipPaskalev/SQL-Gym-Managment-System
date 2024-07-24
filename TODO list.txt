@@ -1,0 +1,11 @@
+[30.10.19]
+-add table TRANSFERS to ERD
+-add table BANK_DETAILS to ERD
+-add table RECIPES to ERD
+-add table INVOICES to ERD
+
+[30.10.19]
+-create connections between tables in ERD
+-do DB normalization
+-figure out (after DB normalization) which data should be on a script which on tables
+

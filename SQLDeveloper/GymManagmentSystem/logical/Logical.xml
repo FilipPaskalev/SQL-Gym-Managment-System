@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="0C99C1C7-D4C7-FFC2-79E3-CAFF02672E78" mainViewID="BCED3C86-DC7C-F4C5-09F2-D52D270378E3">
+<createdBy>ASUS K55VD</createdBy>
+<createdTime>2019-10-25 20:51:52 UTC</createdTime>
+<ownerDesignName>GymManagmentSystem</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8ACCD91B-DA70-AEF4-6096-EE2D55E965C8" name="Persons_Details">
+<createdBy>ASUS K55VD</createdBy>
+<createdTime>2019-10-25 21:00:32 UTC</createdTime>
+<ownerDesignName>GymManagmentSystem</ownerDesignName>
+<engineerTo>
+<item key="A2574CE3-377F-70A2-B78D-86FC0A2DFE5E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Person</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Person_ID" id="C235FEEF-A8B0-4BC4-71BC-C19426180536">
+<createdBy>ASUS K55VD</createdBy>
+<createdTime>2019-10-25 21:02:40 UTC</createdTime>
+<ownerDesignName>GymManagmentSystem</ownerDesignName>
+<engineerTo>
+<item key="A2574CE3-377F-70A2-B78D-86FC0A2DFE5E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Photo_ID" id="35F81E15-A7E6-9544-A97A-0246D74447F2">
+<createdBy>ASUS K55VD</createdBy>
+<createdTime>2019-10-25 21:08:01 UTC</createdTime>
+<ownerDesignName>GymManagmentSystem</ownerDesignName>
+<engineerTo>
+<item key="A2574CE3-377F-70A2-B78D-86FC0A2DFE5E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Address_ID" id="BF1D31D2-2069-5CB8-A090-2C854F630FCA">
+<createdBy>ASUS K55VD</createdBy>
+<createdTime>2019-10-25 21:08:25 UTC</createdTime>
+<ownerDesignName>GymManagmentSystem</ownerDesignName>
+<engineerTo>
+<item key="A2574CE3-377F-70A2-B78D-86FC0A2DFE5E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="First_Name" id="317262A6-639A-44B7-6E02-98F10180ABD6">
+<createdBy>ASUS K55VD</createdBy>
+<createdTime>2019-10-25 21:04:07 UTC</createdTime>
+<ownerDesignName>GymManagmentSystem</ownerDesignName>
+<engineerTo>
+<item key="A2574CE3-377F-70A2-B78D-86FC0A2DFE5E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Middle_Name" id="75C94DC0-8DEA-8996-FB6E-CE3A407647B1">
+<createdBy>ASUS K55VD</createdBy>
+<createdTime>2019-10-25 21:04:18 UTC</createdTime>
+<ownerDesignName>GymManagmentSystem</ownerDesignName>
+<engineerTo>
+<item key="A2574CE3-377F-70A2-B78D-86FC0A2DFE5E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sure_Name" id="8791F62E-79F7-0F07-FEB6-87B905CBF7F4">
+<createdBy>ASUS K55VD</createdBy>
+<createdTime>2019-10-25 21:04:24 UTC</createdTime>
+<ownerDesignName>GymManagmentSystem</ownerDesignName>
+<engineerTo>
+<item key="A2574CE3-377F-70A2-B78D-86FC0A2DFE5E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Discount" id="96D057F8-D2FC-C943-BB89-B27B41083D85">
+<createdBy>ASUS K55VD</createdBy>
+<createdTime>2019-10-25 21:09:31 UTC</createdTime>
+<ownerDesignName>GymManagmentSystem</ownerDesignName>
+<engineerTo>
+<item key="A2574CE3-377F-70A2-B78D-86FC0A2DFE5E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A27AD589-FE22-9A8B-226F-57F69232EA12" name="Persons_Details PK">
+<createdBy>ASUS K55VD</createdBy>
+<createdTime>2019-10-25 21:04:48 UTC</createdTime>
+<ownerDesignName>GymManagmentSystem</ownerDesignName>
+<engineerTo>
+<item key="A2574CE3-377F-70A2-B78D-86FC0A2DFE5E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C235FEEF-A8B0-4BC4-71BC-C19426180536</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
